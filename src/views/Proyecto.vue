@@ -12,6 +12,7 @@ name:"poryecto",
 data(){
     return{
         mensaje:"hola yuli",
+        mensaje:"hola mena ¿como estas?",
     }
 }
 }
