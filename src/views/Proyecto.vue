@@ -11,7 +11,7 @@ export default {
 name:"poryecto",
 data(){
     return{
-        mensaje:"hola mena ¿como estas?",
+        mensaje:"PERDON POR MI INTERNET",
     }
 }
 }
