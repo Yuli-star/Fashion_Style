@@ -10,9 +10,9 @@ const routes = [
     component: () => import('../views/Principal.vue')
   },
   {
-    path: '/*',
-    name: 'Error',
-    component: () => import('../views/Error.vue')
+    path: '*',
+    name: 'Not-found',
+    component: () => import('../views/Not-found.vue')
   },
   {
     path: '/tarea',

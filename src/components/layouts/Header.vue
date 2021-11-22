@@ -2,19 +2,21 @@
   <div id="nav">
     <header class="encabezado">
       <nav>
-        <div><img :src="require('@/assets/imagenes/logi.png')" alt="" /></div>
+        <div><img :src="require('@/assets/imagenes/logi.png')" alt="logo" /></div>
         <ul>
-          <li><a href="#">Nosotros</a></li>
+          <li><router-link to="/">Home</router-link></li>
+
+          <li><router-link to="/nosotros">Nosotros</router-link></li>
           <li>
-            <a href="#">Sucursales</a>
+            <router-link to="/sucursales">Sucursales</router-link>
             <ul>
-              <li><a href="#">Ropa de invierno</a></li>
-              <li><a href="#">Ropa de primavera</a></li>
-              <li><a href="#">Ropa de otoño</a></li>
+              <li><router-link to="/ropa/invierno">Ropa de invierno</router-link></li>
+              <li><router-link to="/ropa/primavera">Ropa de primavera</router-link></li>
+              <li><router-link to="/ropa/otoño">Ropa de otoño</router-link></li>
             </ul>
           </li>
-          <li><a href="#">Presupuesto</a></li>
-          <li><a href="#">Ubicación</a></li>
+          <li><router-link to="/presupuesto">Presupuesto</router-link></li>
+          <li><router-link to="/Ubicación">Ubicación</router-link></li>
           <li>
             <router-link to="/login">Iniciar Sesión</router-link>
           </li>
@@ -37,7 +39,8 @@ export default {
 }
 
 .encabezado{
-    background: #ccb9eb;
+    /* background: #ccb9eb;  antes*/ 
+    background: #7c4dff;
 }
 
 img{
@@ -67,7 +70,8 @@ a{
 }
 
 a:hover{
-    background: rgb(222, 236, 159);
+    background: #4c348d;
+    color: white;
 }
 
 .encabezado nav ul li ul{
@@ -77,7 +81,8 @@ a:hover{
 
 .encabezado nav ul li ul{
     position: absolute;
-    background: #ccb9eb;
+    background: #7952b3;
+    background: 7c4dff;
 }
 
 .encabezado nav ul li ul{
