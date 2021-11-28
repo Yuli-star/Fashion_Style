@@ -1,21 +1,39 @@
 <template>
   <div id="app">
-    <Header></Header>
+    <Header/>
     <router-view/>
+    <Footer/>
   </div>
 </template>
 <script>
 import  Header  from '@/components/layouts/Header.vue'
+import  Footer  from '@/components/layouts/Footer.vue'
 
 export default {
  components: {
-    Header
+    Header,
+    Footer
   },
 }
 </script>
 
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --login-bg:#f8f3ff;
+    --title-bg: #9089cc;
+    --button-bg: #674baf;
+    --light-pink: #e882e8;
+    --image-bg:  #eadbff ;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -29,6 +47,7 @@ export default {
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Sections

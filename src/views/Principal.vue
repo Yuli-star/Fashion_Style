@@ -153,16 +153,16 @@
                     Es una tienda donde encontraran una gran variedad de estilos, colores 
                     y diseños en ropa para mujeres. Con la mayor oferta de productos 
                     de moda en Internet : ropa, calzado, joyería, bolsas, carteras, lentes, entre otros.
+
+                </p>
                     <p>Somos el portal interdimensional de las compras, queremos hacer tu vida más sencilla, 
                     tú solo preocúpate de encontrar el estilo perfecto entre nuestros fabulosos productos.</p>
-                <!-- </p> -->
+               
             </div>
         </div>
     </section>
 
-    <footer id="mainfooter">
-        <p>FASHION STYLE 2021 &copy;</p>
-    </footer>
+    
   </div>
 </template>
 
