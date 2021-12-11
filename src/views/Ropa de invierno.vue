@@ -187,7 +187,7 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 *{
     box-sizing: border-box;
   }
@@ -209,17 +209,22 @@
   .estilo-c{
     font-family: sans-serif;
     width: 30%;
+    border: 1.5px solid rgb(122, 120, 120);
+    border-radius: 15px;
+    /* border: none !important; */
+    /* background: 	#f7eed5; */
   }
   .estilo-c .img-container{
-    overflow: hidden;
-    height: 250px;
+    overflow: hidden; /*desbordamiento que este oculto*/
+    height: 500px;
     position: relative;
     border-radius: 15px;
   }
   .estilo-c .img-container img{
     width: 105%;
+    height: 105%;
     position: absolute;
-    top: -60%;
+    /* top: -60%; */
     transition: all 0.5s;
   }
   .estilo-c:hover .img-container img{
@@ -252,7 +257,7 @@
     width: 100%;
   }
   .estilo-c .add-cart{
-    margin-top: 2px;
+    margin: 1rem;
     text-decoration: none;
     color: white;
     background-color: black;
@@ -264,5 +269,9 @@
     color: black;
     background-color: transparent;
     border: 1px solid black;
+  }
+  .rating{
+    font-size: 1.5rem;
+    color: #ff7849;
   }
 </style>
