@@ -1,7 +1,8 @@
 <template>
   <div>
     <section>
-        <h2>Escoje tus productos</h2>
+        <h2>Ropa de invierno</h2>
+        <h2>Ropa de invierno</h2>
         <h2>Ropa de invierno</h2>
           <div class="card estilo-c">
            <a href="#">
@@ -11,8 +12,8 @@
           </div>
        </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$60</strong>
+        <h3>Abrigo de piel de cordero</h3>
+        <strong>$1,600</strong>
         <span class="rating">★★★★☆</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -21,12 +22,12 @@
       <a href="#">
         <div class="img-container">
           <img :src="require('../assets/imagenes/Ropa Juvenil.png')" alt="producto 1">
-          <span class="promo">15% de descuento</span>
+          <span class="promo">25% de descuento</span>
         </div>
         </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$30</strong>
+        <h3>Outfit de invierno</h3>
+        <strong>$700</strong>
         <span class="rating">★★★☆☆</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -35,12 +36,12 @@
       <a href="#">
         <div class="img-container">
           <img :src="require('../assets/imagenes/invierno2.jpg')" alt="producto 1">
-          <span class="promo">15% de descuento</span>
+          <span class="promo">10% de descuento</span>
         </div>
         </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$120</strong>
+        <h3>Abrigo de lana</h3>
+        <strong>$460</strong>
         <span class="rating">★★★★★</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -51,13 +52,13 @@
           <div class="card estilo-c">
            <a href="#">
           <div class="img-container">
-            <img :src="require('../assets/imagenes/invierno1.jpg')" alt="producto 1">
-            <span class="promo">15% de descuento</span>
+            <img :src="require('../assets/imagenes/invierno4.jpg')" alt="producto 1">
+            <span class="promo">20% de descuento</span>
           </div>
        </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$60</strong>
+        <h3>Chaqueta de nieve abrigo largo</h3>
+        <strong>$700</strong>
         <span class="rating">★★★★☆</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -65,13 +66,13 @@
     <div class="card estilo-c">
       <a href="#">
         <div class="img-container">
-          <img :src="require('../assets/imagenes/Ropa Juvenil.png')" alt="producto 1">
-          <span class="promo">15% de descuento</span>
+          <img :src="require('../assets/imagenes/invierno5.jpg')" alt="producto 1">
+          <span class="promo">10% de descuento</span>
         </div>
         </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$30</strong>
+        <h3>Chamarra de piel sintética doble capa</h3>
+        <strong>$550</strong>
         <span class="rating">★★★☆☆</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -79,13 +80,13 @@
     <div class="card estilo-c">
       <a href="#">
         <div class="img-container">
-          <img :src="require('../assets/imagenes/invierno2.jpg')" alt="producto 1">
+          <img :src="require('../assets/imagenes/6invierno.jpg')" alt="producto 1">
           <span class="promo">15% de descuento</span>
         </div>
         </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$120</strong>
+        <h3>Abrigo grueso de algodón</h3>
+        <strong>$680</strong>
         <span class="rating">★★★★★</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -96,13 +97,13 @@
           <div class="card estilo-c">
            <a href="#">
           <div class="img-container">
-            <img :src="require('../assets/imagenes/invierno1.jpg')" alt="producto 1">
-            <span class="promo">15% de descuento</span>
+            <img :src="require('../assets/imagenes/invierno7.jpg')" alt="producto 1">
+            <span class="promo">25% de descuento</span>
           </div>
        </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$60</strong>
+        <h3>Vestido casual manga completa</h3>
+        <strong>$300</strong>
         <span class="rating">★★★★☆</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -110,13 +111,13 @@
     <div class="card estilo-c">
       <a href="#">
         <div class="img-container">
-          <img :src="require('../assets/imagenes/Ropa Juvenil.png')" alt="producto 1">
-          <span class="promo">15% de descuento</span>
+          <img :src="require('../assets/imagenes/invierno8.jpg')" alt="producto 1">
+          <span class="promo">25% de descuento</span>
         </div>
         </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$30</strong>
+        <h3>Vestido de moda para mujer, cuello alto y manga larga</h3>
+        <strong>$350</strong>
         <span class="rating">★★★☆☆</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -124,13 +125,13 @@
     <div class="card estilo-c">
       <a href="#">
         <div class="img-container">
-          <img :src="require('../assets/imagenes/invierno2.jpg')" alt="producto 1">
-          <span class="promo">15% de descuento</span>
+          <img :src="require('../assets/imagenes/invierno9.jpg')" alt="producto 1">
+          <span class="promo">10% de descuento</span>
         </div>
         </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$120</strong>
+        <h3>Vestido sueter manga larga de cuello alto</h3>
+        <strong>$320</strong>
         <span class="rating">★★★★★</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -141,13 +142,13 @@
           <div class="card estilo-c">
            <a href="#">
           <div class="img-container">
-            <img :src="require('../assets/imagenes/invierno1.jpg')" alt="producto 1">
+            <img :src="require('../assets/imagenes/invierno10.jpg')" alt="producto 1">
             <span class="promo">15% de descuento</span>
           </div>
        </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$60</strong>
+        <h3>Abrigo de lana doble botonadura</h3>
+        <strong>$447</strong>
         <span class="rating">★★★★☆</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -155,13 +156,13 @@
     <div class="card estilo-c">
       <a href="#">
         <div class="img-container">
-          <img :src="require('../assets/imagenes/Ropa Juvenil.png')" alt="producto 1">
-          <span class="promo">15% de descuento</span>
+          <img :src="require('../assets/imagenes/invierno11.jpg')" alt="producto 1">
+          <span class="promo">10% de descuento</span>
         </div>
         </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$30</strong>
+        <h3>Abrigo largo acolchado con ribete</h3>
+        <strong>$900</strong>
         <span class="rating">★★★☆☆</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>
@@ -169,13 +170,13 @@
     <div class="card estilo-c">
       <a href="#">
         <div class="img-container">
-          <img :src="require('../assets/imagenes/invierno2.jpg')" alt="producto 1">
-          <span class="promo">15% de descuento</span>
+          <img :src="require('../assets/imagenes/invierno12.jpg')" alt="producto 1">
+          <span class="promo">20% de descuento</span>
         </div>
         </a>
       <div class="info-container">
-        <h3>Ropa de invierno</h3>
-        <strong>$120</strong>
+        <h3>Capa piel de zorro</h3>
+        <strong>$580</strong>
         <span class="rating">★★★★★</span>
         <a href="#" class="add-cart">Añadir al carrito</a>
       </div>

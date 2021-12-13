@@ -13,10 +13,11 @@
               <li><router-link to="/ropa/invierno">Ropa de invierno</router-link></li>
               <li><router-link to="/ropa/primavera">Ropa de primavera</router-link></li>
               <li><router-link to="/ropa/otoño">Ropa de otoño</router-link></li>
+              <li><router-link to="/ropa/verano">Ropa de verano</router-link></li>
             </ul>
           </li>
-          <li><router-link to="/presupuesto">Presupuesto</router-link></li>
           <li><router-link to="/Ubicación">Ubicación</router-link></li>
+          <li><router-link to="/carrito">Tu carrito</router-link></li>
           <li>
             <router-link to="/login">Iniciar Sesión</router-link>
           </li>
