@@ -28,6 +28,21 @@ const routes = [
     path: "/ropa/invierno",
     name: "Ropa de invierno",
     component: () => import("../views/Ropa de invierno.vue"),
+  },
+  {
+    path: "/ropa/primavera",
+    name: "Ropa de primavera",
+    component: () => import("../views/Ropa de primavera.vue"),
+  },
+  {
+    path: "/ropa/otoño",
+    name: "Ropa de otoño",
+    component: () => import("../views/Ropa de otoño.vue"),
+  },
+  {
+    path: "/ropa/verano",
+    name: "Ropa de verano",
+    component: () => import("../views/Ropa de verano.vue"),
   }
 ];
 
