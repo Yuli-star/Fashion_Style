@@ -46,20 +46,26 @@
                     {
                         title: 'Diseño de Productos',
                         description: 'Todo empieza con una idea concebida por nuestros diseñadores. La vida de un artículo comienza incluso antes de que el lápiz del diseñador toque el papel.',
-                        image: 'invierno1.jpg',
+                        image: 'productos.jpg',
                         isActive: false
                     },
                     {
                         title: 'Servicio al Cliente',
                         description: 'Seguramente le surjan muchas preguntas, pero no se preocupe, que está todo pensado. Nuestro servicio al cliente está formado por profesionales que pueden comunicarse en los siguientes idiomas: Inglés, Francés, Español, Italiano, Alemán, Ruso, Holandés y Árabe.',
-                        image: 'invierno1.jpg',
+                        image: 'cliente.jpg',
                         isActive: true
                     },
                     {
-                        title: 'Servicio al Cliente',
-                        description: 'Seguramente le surjan muchas preguntas, pero no se preocupe, que está todo pensado. Nuestro servicio al cliente está formado por profesionales que pueden comunicarse en los siguientes idiomas: Inglés, Francés, Español, Italiano, Alemán, Ruso, Holandés y Árabe.',
-                        image: 'invierno1.jpg',
+                        title: 'Fabricación',
+                        description: 'Todos nuestros productos están creados por maquinaria de alta precisión, que presta atención al detalle y al estilo. Valoramos muchísimo la calidad y, a veces, nuestros productos son elaborados a mano por personas con amplia experiencia.',
+                        image: 'fabricacion.jpg',
                         isActive: false
+                    },
+                    {
+                        title: 'Calidad Asegurada',
+                        description: 'Después de rigurosas pruebas e inspecciones, nuestros productos se convierten en algo de lo que podemos sentirnos orgullosos: ¡un artículo a la moda y de calidad!',
+                        image: 'calidad.jpg',
+                        isActive: true
                     }
                     
                     

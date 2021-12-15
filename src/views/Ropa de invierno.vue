@@ -1,6 +1,7 @@
 <template>
   <div>
     <section>
+
         <h2>Ropa de invierno</h2>
           <div class="card estilo-c">
            <a href="#">
