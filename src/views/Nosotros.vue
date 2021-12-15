@@ -20,36 +20,54 @@
             atractivos para todos los usuarios del mundo.
         </p>
         <h1>CONOCE FASHION STYLE</h1>
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Diseño de Productos</h2>
-                <p class="lead">Todo empieza con una idea concebida por nuestros diseñadores.
-                    La vida de un artículo comienza incluso antes de que el lápiz del diseñador toque el papel.
-                </p>
-            </div>
-            <div class="col-md-5">
-                <img :src="require('../assets/imagenes/invierno1.jpg')" class="img-fluid mx-auto wd" alt="">
-            </div>
-        </div>
-        
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Servicio al Cliente</h2>
-                <p class="lead">
-                    Seguramente le surjan muchas preguntas, pero no se preocupe, que está todo pensado. 
-                    Nuestro servicio al cliente está formado por profesionales que pueden comunicarse en 
-                    los siguientes idiomas: Inglés, Francés, Español, Italiano, Alemán, Ruso, Holandés y Árabe.
-                    </p>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <img :src="require('../assets/imagenes/invierno1.jpg')" class="img-fluid mx-auto wd" alt="">
-            </div>
-        </div>
 
+
+        <div class="row featurette"  v-for="card of cards" :key="card.id">
+
+            <div :class="['col-md-7', card.isActive ? 'order-md-2' : '' ]">
+                
+                <h2 class="featurette-heading">{{card.title}}</h2>
+                <p class="lead">{{card.description}}</p>
+            </div>
+            <div :class="['col-md-5', card.isActive ? 'col-md-1': '']" >
+                <img :src="require('../assets/imagenes/'+card.image)" class="img-fluid mx-auto wd" alt="">
+            </div>
+        </div>
+         
     </div>
 </template>
 
 <script>
+    export default {
+        name: 'Nosotros',
+        data() {
+            return {
+                cards: [
+                    {
+                        title: 'Diseño de Productos',
+                        description: 'Todo empieza con una idea concebida por nuestros diseñadores. La vida de un artículo comienza incluso antes de que el lápiz del diseñador toque el papel.',
+                        image: 'invierno1.jpg',
+                        isActive: false
+                    },
+                    {
+                        title: 'Servicio al Cliente',
+                        description: 'Seguramente le surjan muchas preguntas, pero no se preocupe, que está todo pensado. Nuestro servicio al cliente está formado por profesionales que pueden comunicarse en los siguientes idiomas: Inglés, Francés, Español, Italiano, Alemán, Ruso, Holandés y Árabe.',
+                        image: 'invierno1.jpg',
+                        isActive: true
+                    },
+                    {
+                        title: 'Servicio al Cliente',
+                        description: 'Seguramente le surjan muchas preguntas, pero no se preocupe, que está todo pensado. Nuestro servicio al cliente está formado por profesionales que pueden comunicarse en los siguientes idiomas: Inglés, Francés, Español, Italiano, Alemán, Ruso, Holandés y Árabe.',
+                        image: 'invierno1.jpg',
+                        isActive: false
+                    }
+                    
+                    
+                    
+                ]
+            }
+        }
+    }
 </script>
 
 <style scoped>
