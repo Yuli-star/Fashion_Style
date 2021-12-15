@@ -2,8 +2,6 @@
   <div>
     <section>
         <h2>Ropa de invierno</h2>
-        <h2>Ropa de invierno</h2>
-        <h2>Ropa de invierno</h2>
           <div class="card estilo-c">
            <a href="#">
           <div class="img-container">
@@ -212,8 +210,8 @@
     width: 30%;
     border: 1.5px solid rgb(122, 120, 120);
     border-radius: 15px;
-    /* border: none !important; */
-    /* background: 	#f7eed5; */
+    position: relative;
+    z-index: 1;
   }
   .estilo-c .img-container{
     overflow: hidden; /*desbordamiento que este oculto*/

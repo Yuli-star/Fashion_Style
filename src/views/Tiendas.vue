@@ -3,7 +3,7 @@
       <h1>Visita nuestras tiendas</h1> 
       |
       <div class="container">
-          <div class="row">
+          <div class="row text">
               <div class="col order-last">
                   <h1>JALISCO</h1>
                   <h5>CENTRO HISTÓRICO</h5>
@@ -70,5 +70,9 @@ h1{
 
 h5{
     color: #F5B7B1;
+}
+
+.text{
+    text-align: justify;
 }
 </style>

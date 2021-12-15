@@ -8,7 +8,7 @@
 
           <li><router-link to="/nosotros">Nosotros</router-link></li>
           <li>
-            <router-link to="/sucursales">Sucursales</router-link>
+            <router-link to="#">Sucursales</router-link>
             <ul>
               <li><router-link to="/ropa/invierno">Ropa de invierno</router-link></li>
               <li><router-link to="/ropa/primavera">Ropa de primavera</router-link></li>
@@ -37,6 +37,11 @@ export default {
 *{
     margin:0;
     padding: 0;
+}
+
+#nav{
+  position: relative;
+  z-index: 2;
 }
 
 .encabezado{
