@@ -43,6 +43,11 @@ const routes = [
     path: "/ropa/verano",
     name: "Ropa de verano",
     component: () => import("../views/Ropa de verano.vue"),
+  },
+  {
+    path: "/tiendas",
+    name: "Tiendas",
+    component: () => import("../views/Tiendas.vue"),
   }
 ];
 

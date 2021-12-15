@@ -16,7 +16,7 @@
               <li><router-link to="/ropa/verano">Ropa de verano</router-link></li>
             </ul>
           </li>
-          <li><router-link to="/Ubicación">Ubicación</router-link></li>
+          <li><router-link to="/tiendas">Tiendas</router-link></li>
           <li><router-link to="/carrito">Tu carrito</router-link></li>
           <li>
             <router-link to="/login">Iniciar Sesión</router-link>
