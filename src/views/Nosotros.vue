@@ -20,6 +20,32 @@
             atractivos para todos los usuarios del mundo.
         </p>
         <h1>CONOCE FASHION STYLE</h1>
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Diseño de Productos</h2>
+                <p class="lead">Todo empieza con una idea concebida por nuestros diseñadores.
+                    La vida de un artículo comienza incluso antes de que el lápiz del diseñador toque el papel.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img :src="require('../assets/imagenes/invierno1.jpg')" class="img-fluid mx-auto wd" alt="">
+            </div>
+        </div>
+        
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Servicio al Cliente</h2>
+                <p class="lead">
+                    Seguramente le surjan muchas preguntas, pero no se preocupe, que está todo pensado. 
+                    Nuestro servicio al cliente está formado por profesionales que pueden comunicarse en 
+                    los siguientes idiomas: Inglés, Francés, Español, Italiano, Alemán, Ruso, Holandés y Árabe.
+                    </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img :src="require('../assets/imagenes/invierno1.jpg')" class="img-fluid mx-auto wd" alt="">
+            </div>
+        </div>
+
     </div>
 </template>
 
@@ -37,5 +63,8 @@ img{
 }
 h1{
     text-align: center;
+}
+.wd{
+    width: 480px;
 }
 </style>
