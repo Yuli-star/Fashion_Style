@@ -2,6 +2,7 @@
     <div>
         <img :src="require('../assets/imagenes/fondo2.jpeg')" alt="">
         <h3>Sobre Nosotros</h3>
+        <i class="fas fa-air-freshener"></i>
         <p> 
             FASHION STYLE es una compañía internacional de moda.
             La empresa está principalmente enfocada a la ropa femenina, pero también ofrece 
@@ -91,4 +92,9 @@ h1{
 .wd{
     width: 480px;
 }
+.fa-air-freshener{
+    color: blueviolet;
+    font-size: 3rem;
+}
+
 </style>
