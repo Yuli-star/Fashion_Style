@@ -91,7 +91,7 @@ export default {
 }
 
 img {
-  width: 65px;
+  height: 65px;
   /*border-radius: 50%; /*Redondear el logo*/
 }
 
