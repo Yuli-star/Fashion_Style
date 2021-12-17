@@ -51,9 +51,9 @@
             <h4>Aprovecha la oportunidad y compra las marcas que te gustan</h4>
             <p>Visita nuestras redes sociales</p>
             <p>Puebla</p>
-            <img :src="require('../assets/imagenes/facebook.png')" height="65px" width="50px" alt="">
-            <img :src="require('../assets/imagenes/whatsapp.png')" height="67px" width="50px" alt="">
-            <img :src="require('../assets/imagenes/twitter.png')" height="65px" width="50px" alt="">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-instagram"></i>
         </div>
     </section>
 

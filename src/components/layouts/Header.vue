@@ -28,18 +28,16 @@
           </li>
           <li><router-link to="/tiendas">Tiendas</router-link></li>
           <li>
+            <router-link to="/login">Iniciar Sesión</router-link>
+          </li>
+          <li>
             <div class="dropdown">
-                
               <i id="car" v-on:click="ejemplo" class="fas fa-cart-arrow-down dropbtn size"></i>
-
               <div id="myDropdown" class="dropdown-content">
                 <!--- acá colocas el contenido del drop --->
                 <!-- <router-link to="/carrito">Carrito</router-link> -->
               </div>
             </div>
-          </li>
-          <li>
-            <router-link to="/login">Iniciar Sesión</router-link>
           </li>
         </ul>
       </nav>
@@ -143,7 +141,7 @@ a:hover {
 /* btn carrito */
 
 .dropbtn {
-  background-color: #3498db;
+  /* background-color: #3498db; */
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -153,7 +151,8 @@ a:hover {
 
 .dropbtn:hover,
 .dropbtn:focus {
-  background-color: #2980b9;
+  background-color: #4c348d;
+  /* background-color: #2980b9; antes*/
 }
 
 .dropdown {
@@ -173,7 +172,7 @@ a:hover {
   z-index: 1;
 }
 .size {
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   cursor: hand;
 }

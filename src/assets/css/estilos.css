@@ -181,3 +181,19 @@ a{
     padding-top: 30px;
 }
 
+/*iconos de font*/
+
+.fa-facebook{
+    color: blue;
+    font-size: 3rem;
+}
+
+.fa-whatsapp{
+    color: rgb(55, 194, 42);
+    font-size: 3rem;
+}
+
+.fa-instagram{
+    color: violet;
+    font-size: 3rem;
+}
